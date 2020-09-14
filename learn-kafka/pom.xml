@@ -48,6 +48,7 @@
             <version>1.1.26</version>
         </dependency>
     </dependencies>
+
     <build>
         <finalName>learn-api</finalName>
         <!--打包时包含properties、xml-->
@@ -76,5 +77,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

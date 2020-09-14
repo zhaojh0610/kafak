@@ -1,6 +1,7 @@
 package com.bfxy.kafka.api.quickstart;
 
 import com.alibaba.fastjson.JSON;
+import com.bfxy.kafka.api.Const;
 import com.bfxy.kafka.api.User;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
@@ -9,6 +10,9 @@ import org.apache.kafka.common.serialization.StringSerializer;
 
 import java.util.Properties;
 
+/**
+ * @author zhaojh
+ */
 public class QuickStartProducer {
     public static void main(String[] args) {
         Properties properties = new Properties();
@@ -27,7 +31,7 @@ public class QuickStartProducer {
         KafkaProducer<String, String> producer = new KafkaProducer<String, String>(properties);
         //  3.构造消息内容
         User user = new User("123", "张三");
-        ProducerRecord<String, String> record = new ProducerRecord<String, String>("test-quickstart", JSON.toJSONString(user));
+        ProducerRecord<String, String> record = new ProducerRecord<String, String>(Const.TOPIC_QUICKSTART, JSON.toJSONString(user));
         //  4.发送消息
         producer.send(record);
         //  5.关闭
