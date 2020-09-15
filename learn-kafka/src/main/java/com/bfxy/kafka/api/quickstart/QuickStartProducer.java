@@ -30,10 +30,12 @@ public class QuickStartProducer {
         //  2.创建kafka生产者对象，传递properties属性参数集合
         KafkaProducer<String, String> producer = new KafkaProducer<String, String>(properties);
         //  3.构造消息内容
-        User user = new User("123", "张三");
-        ProducerRecord<String, String> record = new ProducerRecord<String, String>(Const.TOPIC_QUICKSTART, JSON.toJSONString(user));
-        //  4.发送消息
-        producer.send(record);
+        for (int i = 0; i < 10; i++) {
+            User user = new User("00" + i, "张三");
+            ProducerRecord<String, String> record = new ProducerRecord<String, String>(Const.TOPIC_QUICKSTART, JSON.toJSONString(user));
+            //  4.发送消息
+            producer.send(record);
+        }
         //  5.关闭
         producer.close();
     }

@@ -7,4 +7,6 @@ package com.bfxy.kafka.api;
  */
 public interface Const {
     String TOPIC_QUICKSTART = "topic-quickstart";
+
+    String TOPIC_INTERCEPTOR= "topic-interceptor";
 }
