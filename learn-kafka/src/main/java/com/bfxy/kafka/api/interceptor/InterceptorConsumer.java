@@ -28,6 +28,7 @@ public class InterceptorConsumer {
         properties.put(ConsumerConfig.SESSION_TIMEOUT_MS_CONFIG, 10000);
         properties.put(ConsumerConfig.ENABLE_AUTO_COMMIT_CONFIG, true);
         properties.put(ConsumerConfig.AUTO_COMMIT_INTERVAL_MS_CONFIG, 9000);
+        properties.put(ConsumerConfig.INTERCEPTOR_CLASSES_CONFIG, CustomConsumerInterceptor.class.getName());
         KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(properties);
         consumer.subscribe(Collections.singletonList(Const.TOPIC_INTERCEPTOR));
         System.out.println(String.format("interceptor consumer started..."));

@@ -11,14 +11,19 @@ import java.util.Map;
  * @Desc:
  */
 public class CustomConsumerInterceptor implements ConsumerInterceptor {
+
+    //  onConsume:  消费者接到消息处理之前的拦截器
     @Override
     public ConsumerRecords onConsume(ConsumerRecords records) {
-        return null;
+        System.out.println("---消费者前置处理器，接受消息 ---");
+        return records;
     }
 
     @Override
     public void onCommit(Map offsets) {
-
+        offsets.forEach((tp, offset) -> {
+            System.out.println("消费者处理完成，" + "分区：" + tp + ", 偏移量：" + offset);
+        });
     }
 
     @Override
