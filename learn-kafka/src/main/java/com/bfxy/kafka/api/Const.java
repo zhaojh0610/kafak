@@ -15,4 +15,6 @@ public interface Const {
     String TOPIC_PARTITION = "topic-partition";
 
     String TOPIC_MODULE = "topic-module";
+
+    String TOPIC_CORE = "topic-core";
 }
