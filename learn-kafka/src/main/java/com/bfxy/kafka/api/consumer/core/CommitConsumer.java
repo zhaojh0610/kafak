@@ -1,24 +1,21 @@
 package com.bfxy.kafka.api.consumer.core;
 
 import com.bfxy.kafka.api.Const;
-import org.apache.kafka.clients.consumer.ConsumerConfig;
-import org.apache.kafka.clients.consumer.ConsumerRecord;
-import org.apache.kafka.clients.consumer.ConsumerRecords;
-import org.apache.kafka.clients.consumer.KafkaConsumer;
-import org.apache.kafka.common.PartitionInfo;
+import org.apache.kafka.clients.consumer.*;
 import org.apache.kafka.common.TopicPartition;
 import org.apache.kafka.common.serialization.StringDeserializer;
 
 import java.time.Duration;
-import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 import java.util.Properties;
 
 /**
  * @author zhaojh
  * @date 2020/9/27 15:43
  */
-public class CoreConsumer {
+public class CommitConsumer {
 
     public static void main(String[] args) {
         Properties properties = new Properties();
@@ -27,23 +24,20 @@ public class CoreConsumer {
         properties.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
         properties.put(ConsumerConfig.GROUP_ID_CONFIG, Const.TOPIC_CORE);
         properties.put(ConsumerConfig.SESSION_TIMEOUT_MS_CONFIG, 10000);
-        //  使用自动提交方式
-        properties.put(ConsumerConfig.ENABLE_AUTO_COMMIT_CONFIG, true);
+        //  使用手工提交方式
+        properties.put(ConsumerConfig.ENABLE_AUTO_COMMIT_CONFIG, false);
         properties.put(ConsumerConfig.AUTO_COMMIT_INTERVAL_MS_CONFIG, 9000);
+
+        //  消费者默认每次拉取的位置：从什么位置开始拉取消息
+        //  AUTO_OFFSET_RESET_CONFIG 有三种方式："latest","earliest","none"
+        //  none
+        //  latest  从一个分区的最后提交offset开始拉取消息
+        //  earliset    从最开始的起始位置拉取消息0
+        properties.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "latest");
+
         KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(properties);
         //  对于consumer消息的订阅subscribe方法，可以订阅一个或者多个topic
-//        consumer.subscribe(Collections.singletonList(Const.TOPIC_CORE));
-        //  也可以支持正则表达式方式的订阅
-//        Pattern pa = Pattern.compile("topic-.*");
-        //  可以指定订阅某个主题下的某一个或者多个partition
-//        consumer.assign(Arrays.asList(new TopicPartition(Const.TOPIC_CORE,0),new TopicPartition(Const.TOPIC_CORE,1)));
-        List<PartitionInfo> partitionInfos = consumer.partitionsFor(Const.TOPIC_CORE);
-        List<TopicPartition> topicPartitions = new ArrayList<>();
-        for (PartitionInfo p : partitionInfos) {
-            System.out.println("主题：" + p.topic() + " 分区：" + p.partition());
-            topicPartitions.add(new TopicPartition(p.topic(), p.partition()));
-        }
-        consumer.assign(topicPartitions);
+        consumer.subscribe(Collections.singletonList(Const.TOPIC_CORE));
         System.out.println(String.format("core consumer started..."));
         try {
             while (true) {
@@ -60,8 +54,35 @@ public class CoreConsumer {
                         long offset = consumerRecord.offset();
                         long commitOffer = offset + 1;
                         System.out.println(String.format("---获取实际消息value:%s,消息offset：%s,提交offset：%s", value, offset, commitOffer));
+                        //  一个一个partition同步提交
+//                        consumer.commitSync(Collections.singletonMap(topicPartition, new OffsetAndMetadata(commitOffer)));
+                        //  一个一个partition异步提交
+                        consumer.commitAsync(Collections.singletonMap(topicPartition, new OffsetAndMetadata(commitOffer)),
+                                new OffsetCommitCallback() {
+                                    @Override
+                                    public void onComplete(Map<TopicPartition, OffsetAndMetadata> offsets, Exception exception) {
+                                        if (exception != null) {
+                                            System.out.println("提交失败！");
+                                        }
+                                        System.out.println("异步提交成功：" + offsets);
+                                    }
+                                });
                     }
                 }
+                /*
+                //  整体提交：同步方式
+//                consumer.commitSync();
+                //  整体提交：异步方式
+                consumer.commitAsync(new OffsetCommitCallback() {
+                    @Override
+                    public void onComplete(Map<TopicPartition, OffsetAndMetadata> offsets, Exception exception) {
+                        if (exception != null) {
+                            System.out.println("提交失败。。。");
+                        }
+                        System.out.println("异步提交成功：" + offsets);
+                    }
+                });
+                */
             }
         } finally {
             consumer.close();
