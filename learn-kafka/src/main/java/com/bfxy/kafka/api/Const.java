@@ -17,4 +17,7 @@ public interface Const {
     String TOPIC_MODULE = "topic-module";
 
     String TOPIC_CORE = "topic-core";
+
+    String TOPIC_REBALANCE = "topic-rebalance";
+
 }
