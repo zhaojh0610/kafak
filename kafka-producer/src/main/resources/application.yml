@@ -1,25 +1,23 @@
 server:
   servlet:
-    context-path: kafka
+    context-path: /producer
   port: 8001
-  #springbootÕûºÏkafka
+## Spring æ•´åˆ kafka
 spring:
   kafka:
     producer:
-      # zookeeper¼¯ÈºµØÖ·
       bootstrap-servers: 192.168.120.131:9092
-      # ·¢ËÍÊ§°ÜºóÖØÊÔ´ÎÊý
+      ## kafka producer å‘é€æ¶ˆæ¯å¤±è´¥æ—¶çš„ä¸€ä¸ªé‡è¯•çš„æ¬¡æ•°
       retries: 0
-      # ÅúÁ¿·¢ËÍÄ¬ÈÏ´óÐ¡£¬µ±Âú×ãÕâ¸ö´óÐ¡¾Í»áÅúÁ¿·¢ËÍ
+      ## æ‰¹é‡å‘é€æ•°æ®çš„é…ç½®
       batch-size: 16384
-      # ÉèÖÃkafkaÉú²úÕßÄÚ´æ»º´æÇøµÄ´óÐ¡£¨32M£©
+      ## è®¾ç½®kafka ç”Ÿäº§è€…å†…å­˜ç¼“å­˜åŒºçš„å¤§å°ï¼ˆ32Mï¼‰
       buffer-memory: 33554432
-      # kafkaÏûÏ¢ÐòÁÐ»¯ÅäÖÃ
+      ## kafkaæ¶ˆæ¯çš„åºåˆ—åŒ–é…ç½®
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
-      # acks=0 £ºÉú²úÕßÔÚ³É¹¦Ð´ÈëÏûÏ¢Ç°£¬²»»áµÈ´ýÈÎºÎÀ´×Ô·þÎñÆ÷µÄÏìÓ¦¡£
-      # acks=1 £ºÖ»Òª¼¯ÈºµÄÊ×Áì½ÚµãÊÕµ½ÏûÏ¢£¬Éú²úÕß¾Í»áÊÕµ½Ò»¸öÀ´×Ô·þÎñÆ÷³É¹¦ÏìÓ¦¡£
-      # acks=-1»òall £º±íÊ¾·ÖÇøleader±ØÐëµÈ´ýÏûÏ¢±»³É¹¦Ð´Èëµ½ËùÓÐµÄISR¸±±¾£¨Í¬²½¸±±¾£©ÖÐ²ÅÈÏÎªproducerÇëÇó³É¹¦
-      # ÕâÖÖ·½°¸ÀíÌá¹©×î¸ßµÄÏûÏ¢³Ö¾ÃÐÔ±£Ö¤£¬µ«ÊÇÀíÂÛÉÏÍÌÍÂÂÊÒ²ÊÇ×î²îµÄ¡£
-      # Õâ¸öÊÇkafkaÉú²úÕß×îÖØÒªµÄÅäÖÃ
+      # acks=0 ï¼š ç”Ÿäº§è€…åœ¨æˆåŠŸå†™å…¥æ¶ˆæ¯ä¹‹å‰ä¸ä¼šç­‰å¾…ä»»ä½•æ¥è‡ªæœåŠ¡å™¨çš„å“åº”ã€‚
+      # acks=1 ï¼š åªè¦é›†ç¾¤çš„é¦–é¢†èŠ‚ç‚¹æ”¶åˆ°æ¶ˆæ¯ï¼Œç”Ÿäº§è€…å°±ä¼šæ”¶åˆ°ä¸€ä¸ªæ¥è‡ªæœåŠ¡å™¨æˆåŠŸå“åº”ã€‚
+      # acks=-1: è¡¨ç¤ºåˆ†åŒºleaderå¿…é¡»ç­‰å¾…æ¶ˆæ¯è¢«æˆåŠŸå†™å…¥åˆ°æ‰€æœ‰çš„ISRå‰¯æœ¬(åŒæ­¥å‰¯æœ¬)ä¸­æ‰è®¤ä¸ºproducerè¯·æ±‚æˆåŠŸã€‚è¿™ç§æ–¹æ¡ˆæä¾›æœ€é«˜çš„æ¶ˆæ¯æŒä¹…æ€§ä¿è¯ï¼Œä½†æ˜¯ç†è®ºä¸ŠåžåçŽ‡ä¹Ÿæ˜¯æœ€å·®çš„ã€‚
+      ## 	è¿™ä¸ªæ˜¯kafkaç”Ÿäº§ç«¯æœ€é‡è¦çš„é€‰é¡¹
       acks: 1
