@@ -20,4 +20,5 @@ public interface Const {
 
     String TOPIC_REBALANCE = "topic-rebalance";
 
+    String TOPIC_MT1 = "topic-mt1";
 }
