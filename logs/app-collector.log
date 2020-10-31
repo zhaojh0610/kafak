@@ -1,0 +1,348 @@
+[2020-10-31T16:09:33.103+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [StartupInfoLogger.java,50,org.springframework.boot.StartupInfoLogger,logStarting] [Starting Application on xiaomi-Pro with PID 10984 (D:\E\zhaojh2020\kafka\collector\target\classes started by zhaojh in D:\E\zhaojh2020\kafka)] ## ''
+[2020-10-31T16:09:33.201+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [SpringApplication.java,675,org.springframework.boot.SpringApplication,logStartupProfileInfo] [No active profile set, falling back to default profiles: default] ## ''
+[2020-10-31T16:09:33.906+08:00] [INFO] [main-1] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] [] [] [TomcatWebServer.java,90,org.springframework.boot.web.embedded.tomcat.TomcatWebServer,initialize] [Tomcat initialized with port(s): 8001 (http)] ## ''
+[2020-10-31T16:09:33.930+08:00] [INFO] [main-1] [org.apache.coyote.http11.Http11NioProtocol] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing ProtocolHandler ["http-nio-8001"]] ## ''
+[2020-10-31T16:09:33.940+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardService] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting service [Tomcat]] ## ''
+[2020-10-31T16:09:33.941+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardEngine] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting Servlet engine: [Apache Tomcat/9.0.19]] ## ''
+[2020-10-31T16:09:34.023+08:00] [INFO] [main-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing Spring embedded WebApplicationContext] ## ''
+[2020-10-31T16:09:34.024+08:00] [INFO] [main-1] [org.springframework.web.context.ContextLoader] [] [] [] [ServletWebServerApplicationContext.java,296,org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext,prepareWebApplicationContext] [Root WebApplicationContext: initialization completed in 794 ms] ## ''
+[2020-10-31T16:09:34.202+08:00] [INFO] [main-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [] [] [] [ExecutorConfigurationSupport.java,171,org.springframework.scheduling.concurrent.ExecutorConfigurationSupport,initialize] [Initializing ExecutorService 'applicationTaskExecutor'] ## ''
+[2020-10-31T16:09:34.308+08:00] [INFO] [main-1] [org.apache.coyote.http11.Http11NioProtocol] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting ProtocolHandler ["http-nio-8001"]] ## ''
+[2020-10-31T16:09:34.326+08:00] [INFO] [main-1] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] [] [] [TomcatWebServer.java,204,org.springframework.boot.web.embedded.tomcat.TomcatWebServer,start] [Tomcat started on port(s): 8001 (http) with context path ''] ## ''
+[2020-10-31T16:09:34.329+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [StartupInfoLogger.java,59,org.springframework.boot.StartupInfoLogger,logStarted] [Started Application in 1.513 seconds (JVM running for 2.422)] ## ''
+[2020-10-31T16:11:22.410+08:00] [INFO] [http-nio-8001-exec-1-28] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing Spring DispatcherServlet 'dispatcherServlet'] ## ''
+[2020-10-31T16:11:22.410+08:00] [INFO] [http-nio-8001-exec-1-28] [org.springframework.web.servlet.DispatcherServlet] [] [] [] [FrameworkServlet.java,524,org.springframework.web.servlet.FrameworkServlet,initServletBean] [Initializing Servlet 'dispatcherServlet'] ## ''
+[2020-10-31T16:11:22.414+08:00] [INFO] [http-nio-8001-exec-1-28] [org.springframework.web.servlet.DispatcherServlet] [] [] [] [FrameworkServlet.java,546,org.springframework.web.servlet.FrameworkServlet,initServletBean] [Completed initialization in 4 ms] ## ''
+[2020-10-31T16:11:22.428+08:00] [INFO] [http-nio-8001-exec-1-28] [com.bfxy.collector.web.IndexCollector] [] [] [] [IndexCollector.java,29,com.bfxy.collector.web.IndexCollector,index] [我是一条info日志] ## ''
+[2020-10-31T16:11:22.428+08:00] [WARN] [http-nio-8001-exec-1-28] [com.bfxy.collector.web.IndexCollector] [] [] [] [IndexCollector.java,30,com.bfxy.collector.web.IndexCollector,index] [我是一条warn日志] ## ''
+[2020-10-31T16:11:22.428+08:00] [ERROR] [http-nio-8001-exec-1-28] [com.bfxy.collector.web.IndexCollector] [] [] [] [IndexCollector.java,31,com.bfxy.collector.web.IndexCollector,index] [我是一条error日志] ## ''
+[2020-10-31T16:11:47.113+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [StartupInfoLogger.java,50,org.springframework.boot.StartupInfoLogger,logStarting] [Starting Application on xiaomi-Pro with PID 21384 (D:\E\zhaojh2020\kafka\collector\target\classes started by zhaojh in D:\E\zhaojh2020\kafka)] ## ''
+[2020-10-31T16:11:47.118+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [SpringApplication.java,675,org.springframework.boot.SpringApplication,logStartupProfileInfo] [No active profile set, falling back to default profiles: default] ## ''
+[2020-10-31T16:11:47.797+08:00] [INFO] [main-1] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] [] [] [TomcatWebServer.java,90,org.springframework.boot.web.embedded.tomcat.TomcatWebServer,initialize] [Tomcat initialized with port(s): 8001 (http)] ## ''
+[2020-10-31T16:11:47.812+08:00] [INFO] [main-1] [org.apache.coyote.http11.Http11NioProtocol] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing ProtocolHandler ["http-nio-8001"]] ## ''
+[2020-10-31T16:11:47.818+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardService] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting service [Tomcat]] ## ''
+[2020-10-31T16:11:47.819+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardEngine] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting Servlet engine: [Apache Tomcat/9.0.19]] ## ''
+[2020-10-31T16:11:47.880+08:00] [INFO] [main-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing Spring embedded WebApplicationContext] ## ''
+[2020-10-31T16:11:47.880+08:00] [INFO] [main-1] [org.springframework.web.context.ContextLoader] [] [] [] [ServletWebServerApplicationContext.java,296,org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext,prepareWebApplicationContext] [Root WebApplicationContext: initialization completed in 630 ms] ## ''
+[2020-10-31T16:11:48.012+08:00] [INFO] [main-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [] [] [] [ExecutorConfigurationSupport.java,171,org.springframework.scheduling.concurrent.ExecutorConfigurationSupport,initialize] [Initializing ExecutorService 'applicationTaskExecutor'] ## ''
+[2020-10-31T16:11:48.114+08:00] [INFO] [main-1] [org.apache.coyote.http11.Http11NioProtocol] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting ProtocolHandler ["http-nio-8001"]] ## ''
+[2020-10-31T16:11:48.130+08:00] [INFO] [main-1] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] [] [] [TomcatWebServer.java,204,org.springframework.boot.web.embedded.tomcat.TomcatWebServer,start] [Tomcat started on port(s): 8001 (http) with context path ''] ## ''
+[2020-10-31T16:11:48.133+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [StartupInfoLogger.java,59,org.springframework.boot.StartupInfoLogger,logStarted] [Started Application in 1.35 seconds (JVM running for 2.279)] ## ''
+[2020-10-31T16:14:12.185+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [StartupInfoLogger.java,50,org.springframework.boot.StartupInfoLogger,logStarting] [Starting Application on xiaomi-Pro with PID 15424 (D:\E\zhaojh2020\kafka\collector\target\classes started by zhaojh in D:\E\zhaojh2020\kafka)] ## ''
+[2020-10-31T16:14:12.190+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [SpringApplication.java,675,org.springframework.boot.SpringApplication,logStartupProfileInfo] [No active profile set, falling back to default profiles: default] ## ''
+[2020-10-31T16:14:12.767+08:00] [INFO] [main-1] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] [] [] [TomcatWebServer.java,90,org.springframework.boot.web.embedded.tomcat.TomcatWebServer,initialize] [Tomcat initialized with port(s): 8001 (http)] ## ''
+[2020-10-31T16:14:12.782+08:00] [INFO] [main-1] [org.apache.coyote.http11.Http11NioProtocol] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing ProtocolHandler ["http-nio-8001"]] ## ''
+[2020-10-31T16:14:12.788+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardService] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting service [Tomcat]] ## ''
+[2020-10-31T16:14:12.789+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardEngine] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting Servlet engine: [Apache Tomcat/9.0.19]] ## ''
+[2020-10-31T16:14:12.862+08:00] [INFO] [main-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing Spring embedded WebApplicationContext] ## ''
+[2020-10-31T16:14:12.862+08:00] [INFO] [main-1] [org.springframework.web.context.ContextLoader] [] [] [] [ServletWebServerApplicationContext.java,296,org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext,prepareWebApplicationContext] [Root WebApplicationContext: initialization completed in 646 ms] ## ''
+[2020-10-31T16:14:12.993+08:00] [INFO] [main-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [] [] [] [ExecutorConfigurationSupport.java,171,org.springframework.scheduling.concurrent.ExecutorConfigurationSupport,initialize] [Initializing ExecutorService 'applicationTaskExecutor'] ## ''
+[2020-10-31T16:14:13.094+08:00] [INFO] [main-1] [org.apache.coyote.http11.Http11NioProtocol] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting ProtocolHandler ["http-nio-8001"]] ## ''
+[2020-10-31T16:14:13.111+08:00] [INFO] [main-1] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] [] [] [TomcatWebServer.java,204,org.springframework.boot.web.embedded.tomcat.TomcatWebServer,start] [Tomcat started on port(s): 8001 (http) with context path ''] ## ''
+[2020-10-31T16:14:13.114+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [StartupInfoLogger.java,59,org.springframework.boot.StartupInfoLogger,logStarted] [Started Application in 1.356 seconds (JVM running for 2.292)] ## ''
+[2020-10-31T16:15:07.661+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [StartupInfoLogger.java,50,org.springframework.boot.StartupInfoLogger,logStarting] [Starting Application on xiaomi-Pro with PID 12532 (D:\E\zhaojh2020\kafka\collector\target\classes started by zhaojh in D:\E\zhaojh2020\kafka)] ## ''
+[2020-10-31T16:15:07.667+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [SpringApplication.java,675,org.springframework.boot.SpringApplication,logStartupProfileInfo] [No active profile set, falling back to default profiles: default] ## ''
+[2020-10-31T16:15:08.423+08:00] [INFO] [main-1] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] [] [] [TomcatWebServer.java,90,org.springframework.boot.web.embedded.tomcat.TomcatWebServer,initialize] [Tomcat initialized with port(s): 8001 (http)] ## ''
+[2020-10-31T16:15:08.442+08:00] [INFO] [main-1] [org.apache.coyote.http11.Http11NioProtocol] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing ProtocolHandler ["http-nio-8001"]] ## ''
+[2020-10-31T16:15:08.449+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardService] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting service [Tomcat]] ## ''
+[2020-10-31T16:15:08.449+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardEngine] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting Servlet engine: [Apache Tomcat/9.0.19]] ## ''
+[2020-10-31T16:15:08.526+08:00] [INFO] [main-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing Spring embedded WebApplicationContext] ## ''
+[2020-10-31T16:15:08.527+08:00] [INFO] [main-1] [org.springframework.web.context.ContextLoader] [] [] [] [ServletWebServerApplicationContext.java,296,org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext,prepareWebApplicationContext] [Root WebApplicationContext: initialization completed in 826 ms] ## ''
+[2020-10-31T16:15:08.695+08:00] [INFO] [main-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [] [] [] [ExecutorConfigurationSupport.java,171,org.springframework.scheduling.concurrent.ExecutorConfigurationSupport,initialize] [Initializing ExecutorService 'applicationTaskExecutor'] ## ''
+[2020-10-31T16:15:08.819+08:00] [INFO] [main-1] [org.apache.coyote.http11.Http11NioProtocol] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting ProtocolHandler ["http-nio-8001"]] ## ''
+[2020-10-31T16:15:08.838+08:00] [INFO] [main-1] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] [] [] [TomcatWebServer.java,204,org.springframework.boot.web.embedded.tomcat.TomcatWebServer,start] [Tomcat started on port(s): 8001 (http) with context path ''] ## ''
+[2020-10-31T16:15:08.841+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [StartupInfoLogger.java,59,org.springframework.boot.StartupInfoLogger,logStarted] [Started Application in 1.548 seconds (JVM running for 3.234)] ## ''
+[2020-10-31T16:16:45.423+08:00] [INFO] [Thread-7-45] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [] [] [] [ExecutorConfigurationSupport.java,208,org.springframework.scheduling.concurrent.ExecutorConfigurationSupport,shutdown] [Shutting down ExecutorService 'applicationTaskExecutor'] ## ''
+[2020-10-31T16:16:50.187+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [StartupInfoLogger.java,50,org.springframework.boot.StartupInfoLogger,logStarting] [Starting Application on xiaomi-Pro with PID 18160 (D:\E\zhaojh2020\kafka\collector\target\classes started by zhaojh in D:\E\zhaojh2020\kafka)] ## ''
+[2020-10-31T16:16:50.193+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [SpringApplication.java,675,org.springframework.boot.SpringApplication,logStartupProfileInfo] [No active profile set, falling back to default profiles: default] ## ''
+[2020-10-31T16:16:50.878+08:00] [INFO] [main-1] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] [] [] [TomcatWebServer.java,90,org.springframework.boot.web.embedded.tomcat.TomcatWebServer,initialize] [Tomcat initialized with port(s): 8001 (http)] ## ''
+[2020-10-31T16:16:50.896+08:00] [INFO] [main-1] [org.apache.coyote.http11.Http11NioProtocol] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing ProtocolHandler ["http-nio-8001"]] ## ''
+[2020-10-31T16:16:50.903+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardService] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting service [Tomcat]] ## ''
+[2020-10-31T16:16:50.903+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardEngine] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting Servlet engine: [Apache Tomcat/9.0.19]] ## ''
+[2020-10-31T16:16:50.972+08:00] [INFO] [main-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing Spring embedded WebApplicationContext] ## ''
+[2020-10-31T16:16:50.973+08:00] [INFO] [main-1] [org.springframework.web.context.ContextLoader] [] [] [] [ServletWebServerApplicationContext.java,296,org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext,prepareWebApplicationContext] [Root WebApplicationContext: initialization completed in 749 ms] ## ''
+[2020-10-31T16:16:51.141+08:00] [INFO] [main-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [] [] [] [ExecutorConfigurationSupport.java,171,org.springframework.scheduling.concurrent.ExecutorConfigurationSupport,initialize] [Initializing ExecutorService 'applicationTaskExecutor'] ## ''
+[2020-10-31T16:16:51.262+08:00] [INFO] [main-1] [org.apache.coyote.http11.Http11NioProtocol] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting ProtocolHandler ["http-nio-8001"]] ## ''
+[2020-10-31T16:16:51.281+08:00] [INFO] [main-1] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] [] [] [TomcatWebServer.java,204,org.springframework.boot.web.embedded.tomcat.TomcatWebServer,start] [Tomcat started on port(s): 8001 (http) with context path ''] ## ''
+[2020-10-31T16:16:51.284+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [StartupInfoLogger.java,59,org.springframework.boot.StartupInfoLogger,logStarted] [Started Application in 1.587 seconds (JVM running for 2.857)] ## ''
+[2020-10-31T16:17:00.579+08:00] [INFO] [http-nio-8001-exec-1-31] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing Spring DispatcherServlet 'dispatcherServlet'] ## ''
+[2020-10-31T16:17:00.580+08:00] [INFO] [http-nio-8001-exec-1-31] [org.springframework.web.servlet.DispatcherServlet] [] [] [] [FrameworkServlet.java,524,org.springframework.web.servlet.FrameworkServlet,initServletBean] [Initializing Servlet 'dispatcherServlet'] ## ''
+[2020-10-31T16:17:00.584+08:00] [INFO] [http-nio-8001-exec-1-31] [org.springframework.web.servlet.DispatcherServlet] [] [] [] [FrameworkServlet.java,546,org.springframework.web.servlet.FrameworkServlet,initServletBean] [Completed initialization in 4 ms] ## ''
+[2020-10-31T16:17:03.828+08:00] [INFO] [http-nio-8001-exec-1-31] [com.bfxy.collector.web.IndexCollector] [xiaomi-Pro] [192.168.120.2] [collector] [IndexCollector.java,31,com.bfxy.collector.web.IndexCollector,index] [我是一条info日志] ## ''
+[2020-10-31T16:17:04.088+08:00] [WARN] [http-nio-8001-exec-1-31] [com.bfxy.collector.web.IndexCollector] [xiaomi-Pro] [192.168.120.2] [collector] [IndexCollector.java,32,com.bfxy.collector.web.IndexCollector,index] [我是一条warn日志] ## ''
+[2020-10-31T16:17:09.899+08:00] [ERROR] [http-nio-8001-exec-1-31] [com.bfxy.collector.web.IndexCollector] [xiaomi-Pro] [192.168.120.2] [collector] [IndexCollector.java,33,com.bfxy.collector.web.IndexCollector,index] [我是一条error日志] ## ''
+[2020-10-31T16:18:01.348+08:00] [INFO] [Thread-6-44] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [] [] [] [ExecutorConfigurationSupport.java,208,org.springframework.scheduling.concurrent.ExecutorConfigurationSupport,shutdown] [Shutting down ExecutorService 'applicationTaskExecutor'] ## ''
+[2020-10-31T16:19:39.868+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [StartupInfoLogger.java,50,org.springframework.boot.StartupInfoLogger,logStarting] [Starting Application on xiaomi-Pro with PID 1240 (D:\E\zhaojh2020\kafka\collector\target\classes started by zhaojh in D:\E\zhaojh2020\kafka)] ## ''
+[2020-10-31T16:19:39.874+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [SpringApplication.java,675,org.springframework.boot.SpringApplication,logStartupProfileInfo] [No active profile set, falling back to default profiles: default] ## ''
+[2020-10-31T16:19:40.540+08:00] [INFO] [main-1] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] [] [] [TomcatWebServer.java,90,org.springframework.boot.web.embedded.tomcat.TomcatWebServer,initialize] [Tomcat initialized with port(s): 8001 (http)] ## ''
+[2020-10-31T16:19:40.555+08:00] [INFO] [main-1] [org.apache.coyote.http11.Http11NioProtocol] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing ProtocolHandler ["http-nio-8001"]] ## ''
+[2020-10-31T16:19:40.560+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardService] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting service [Tomcat]] ## ''
+[2020-10-31T16:19:40.560+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardEngine] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting Servlet engine: [Apache Tomcat/9.0.19]] ## ''
+[2020-10-31T16:19:40.628+08:00] [INFO] [main-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing Spring embedded WebApplicationContext] ## ''
+[2020-10-31T16:19:40.629+08:00] [INFO] [main-1] [org.springframework.web.context.ContextLoader] [] [] [] [ServletWebServerApplicationContext.java,296,org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext,prepareWebApplicationContext] [Root WebApplicationContext: initialization completed in 633 ms] ## ''
+[2020-10-31T16:19:40.761+08:00] [INFO] [main-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [] [] [] [ExecutorConfigurationSupport.java,171,org.springframework.scheduling.concurrent.ExecutorConfigurationSupport,initialize] [Initializing ExecutorService 'applicationTaskExecutor'] ## ''
+[2020-10-31T16:19:40.864+08:00] [INFO] [main-1] [org.apache.coyote.http11.Http11NioProtocol] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting ProtocolHandler ["http-nio-8001"]] ## ''
+[2020-10-31T16:19:40.880+08:00] [INFO] [main-1] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] [] [] [TomcatWebServer.java,204,org.springframework.boot.web.embedded.tomcat.TomcatWebServer,start] [Tomcat started on port(s): 8001 (http) with context path ''] ## ''
+[2020-10-31T16:19:40.883+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [StartupInfoLogger.java,59,org.springframework.boot.StartupInfoLogger,logStarted] [Started Application in 1.326 seconds (JVM running for 2.259)] ## ''
+[2020-10-31T16:20:13.056+08:00] [INFO] [http-nio-8001-exec-1-28] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing Spring DispatcherServlet 'dispatcherServlet'] ## ''
+[2020-10-31T16:20:13.056+08:00] [INFO] [http-nio-8001-exec-1-28] [org.springframework.web.servlet.DispatcherServlet] [] [] [] [FrameworkServlet.java,524,org.springframework.web.servlet.FrameworkServlet,initServletBean] [Initializing Servlet 'dispatcherServlet'] ## ''
+[2020-10-31T16:20:13.060+08:00] [INFO] [http-nio-8001-exec-1-28] [org.springframework.web.servlet.DispatcherServlet] [] [] [] [FrameworkServlet.java,546,org.springframework.web.servlet.FrameworkServlet,initServletBean] [Completed initialization in 4 ms] ## ''
+[2020-10-31T16:20:13.312+08:00] [INFO] [http-nio-8001-exec-1-28] [com.bfxy.collector.web.IndexCollector] [xiaomi-Pro] [192.168.120.2] [collector] [IndexCollector.java,32,com.bfxy.collector.web.IndexCollector,index] [我是一条info日志] ## ''
+[2020-10-31T16:20:13.313+08:00] [WARN] [http-nio-8001-exec-1-28] [com.bfxy.collector.web.IndexCollector] [xiaomi-Pro] [192.168.120.2] [collector] [IndexCollector.java,33,com.bfxy.collector.web.IndexCollector,index] [我是一条warn日志] ## ''
+[2020-10-31T16:20:13.313+08:00] [ERROR] [http-nio-8001-exec-1-28] [com.bfxy.collector.web.IndexCollector] [xiaomi-Pro] [192.168.120.2] [collector] [IndexCollector.java,34,com.bfxy.collector.web.IndexCollector,index] [我是一条error日志] ## ''
+[2020-10-31T16:20:50.884+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [StartupInfoLogger.java,50,org.springframework.boot.StartupInfoLogger,logStarting] [Starting Application on xiaomi-Pro with PID 12472 (D:\E\zhaojh2020\kafka\collector\target\classes started by zhaojh in D:\E\zhaojh2020\kafka)] ## ''
+[2020-10-31T16:20:50.890+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [SpringApplication.java,675,org.springframework.boot.SpringApplication,logStartupProfileInfo] [No active profile set, falling back to default profiles: default] ## ''
+[2020-10-31T16:20:51.453+08:00] [INFO] [main-1] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] [] [] [TomcatWebServer.java,90,org.springframework.boot.web.embedded.tomcat.TomcatWebServer,initialize] [Tomcat initialized with port(s): 8001 (http)] ## ''
+[2020-10-31T16:20:51.468+08:00] [INFO] [main-1] [org.apache.coyote.http11.Http11NioProtocol] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing ProtocolHandler ["http-nio-8001"]] ## ''
+[2020-10-31T16:20:51.475+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardService] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting service [Tomcat]] ## ''
+[2020-10-31T16:20:51.475+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardEngine] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting Servlet engine: [Apache Tomcat/9.0.19]] ## ''
+[2020-10-31T16:20:51.539+08:00] [INFO] [main-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing Spring embedded WebApplicationContext] ## ''
+[2020-10-31T16:20:51.539+08:00] [INFO] [main-1] [org.springframework.web.context.ContextLoader] [] [] [] [ServletWebServerApplicationContext.java,296,org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext,prepareWebApplicationContext] [Root WebApplicationContext: initialization completed in 620 ms] ## ''
+[2020-10-31T16:20:51.671+08:00] [INFO] [main-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [] [] [] [ExecutorConfigurationSupport.java,171,org.springframework.scheduling.concurrent.ExecutorConfigurationSupport,initialize] [Initializing ExecutorService 'applicationTaskExecutor'] ## ''
+[2020-10-31T16:20:51.709+08:00] [WARN] [main-1] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [] [] [] [AbstractApplicationContext.java,557,org.springframework.context.support.AbstractApplicationContext,refresh] [Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'basicErrorController' method 
+public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+to { /error}: There is already 'indexCollector' bean method
+public java.lang.String com.bfxy.collector.web.IndexCollector.error() mapped.] ## ''
+[2020-10-31T16:20:51.709+08:00] [INFO] [main-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [] [] [] [ExecutorConfigurationSupport.java,208,org.springframework.scheduling.concurrent.ExecutorConfigurationSupport,shutdown] [Shutting down ExecutorService 'applicationTaskExecutor'] ## ''
+[2020-10-31T16:20:51.712+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardService] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Stopping service [Tomcat]] ## ''
+[2020-10-31T16:20:51.720+08:00] [INFO] [main-1] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [] [] [] [ConditionEvaluationReportLoggingListener.java,142,org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener,logMessage] [
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.] ## ''
+[2020-10-31T16:20:51.724+08:00] [ERROR] [main-1] [org.springframework.boot.SpringApplication] [] [] [] [SpringApplication.java,858,org.springframework.boot.SpringApplication,reportFailure] [Application run failed] ## ' org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'basicErrorController' method 
+public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+to { /error}: There is already 'indexCollector' bean method
+public java.lang.String com.bfxy.collector.web.IndexCollector.error() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:843)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.bfxy.collector.Application.main(Application.java:13)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'basicErrorController' method 
+public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+to { /error}: There is already 'indexCollector' bean method
+public java.lang.String com.bfxy.collector.web.IndexCollector.error() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:618)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:586)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:312)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:282)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:280)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:252)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:211)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:199)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	... 16 more
+'
+[2020-10-31T16:21:53.556+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [StartupInfoLogger.java,50,org.springframework.boot.StartupInfoLogger,logStarting] [Starting Application on xiaomi-Pro with PID 18480 (D:\E\zhaojh2020\kafka\collector\target\classes started by zhaojh in D:\E\zhaojh2020\kafka)] ## ''
+[2020-10-31T16:21:53.572+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [SpringApplication.java,675,org.springframework.boot.SpringApplication,logStartupProfileInfo] [No active profile set, falling back to default profiles: default] ## ''
+[2020-10-31T16:21:54.258+08:00] [INFO] [main-1] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] [] [] [TomcatWebServer.java,90,org.springframework.boot.web.embedded.tomcat.TomcatWebServer,initialize] [Tomcat initialized with port(s): 8001 (http)] ## ''
+[2020-10-31T16:21:54.274+08:00] [INFO] [main-1] [org.apache.coyote.http11.Http11NioProtocol] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing ProtocolHandler ["http-nio-8001"]] ## ''
+[2020-10-31T16:21:54.280+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardService] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting service [Tomcat]] ## ''
+[2020-10-31T16:21:54.281+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardEngine] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting Servlet engine: [Apache Tomcat/9.0.19]] ## ''
+[2020-10-31T16:21:54.353+08:00] [INFO] [main-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing Spring embedded WebApplicationContext] ## ''
+[2020-10-31T16:21:54.353+08:00] [INFO] [main-1] [org.springframework.web.context.ContextLoader] [] [] [] [ServletWebServerApplicationContext.java,296,org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext,prepareWebApplicationContext] [Root WebApplicationContext: initialization completed in 647 ms] ## ''
+[2020-10-31T16:21:54.497+08:00] [INFO] [main-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [] [] [] [ExecutorConfigurationSupport.java,171,org.springframework.scheduling.concurrent.ExecutorConfigurationSupport,initialize] [Initializing ExecutorService 'applicationTaskExecutor'] ## ''
+[2020-10-31T16:21:54.533+08:00] [WARN] [main-1] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [] [] [] [AbstractApplicationContext.java,557,org.springframework.context.support.AbstractApplicationContext,refresh] [Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'basicErrorController' method 
+public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+to { /error}: There is already 'indexCollector' bean method
+public java.lang.String com.bfxy.collector.web.IndexCollector.error() mapped.] ## ''
+[2020-10-31T16:21:54.533+08:00] [INFO] [main-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [] [] [] [ExecutorConfigurationSupport.java,208,org.springframework.scheduling.concurrent.ExecutorConfigurationSupport,shutdown] [Shutting down ExecutorService 'applicationTaskExecutor'] ## ''
+[2020-10-31T16:21:54.536+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardService] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Stopping service [Tomcat]] ## ''
+[2020-10-31T16:21:54.543+08:00] [INFO] [main-1] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [] [] [] [ConditionEvaluationReportLoggingListener.java,142,org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener,logMessage] [
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.] ## ''
+[2020-10-31T16:21:54.547+08:00] [ERROR] [main-1] [org.springframework.boot.SpringApplication] [] [] [] [SpringApplication.java,858,org.springframework.boot.SpringApplication,reportFailure] [Application run failed] ## ' org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'basicErrorController' method 
+public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+to { /error}: There is already 'indexCollector' bean method
+public java.lang.String com.bfxy.collector.web.IndexCollector.error() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:843)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.bfxy.collector.Application.main(Application.java:13)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'basicErrorController' method 
+public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+to { /error}: There is already 'indexCollector' bean method
+public java.lang.String com.bfxy.collector.web.IndexCollector.error() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:618)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:586)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:312)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:282)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:280)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:252)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:211)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:199)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	... 16 more
+'
+[2020-10-31T16:22:10.923+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [StartupInfoLogger.java,50,org.springframework.boot.StartupInfoLogger,logStarting] [Starting Application on xiaomi-Pro with PID 17032 (D:\E\zhaojh2020\kafka\collector\target\classes started by zhaojh in D:\E\zhaojh2020\kafka)] ## ''
+[2020-10-31T16:22:11.025+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [SpringApplication.java,675,org.springframework.boot.SpringApplication,logStartupProfileInfo] [No active profile set, falling back to default profiles: default] ## ''
+[2020-10-31T16:22:11.613+08:00] [INFO] [main-1] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] [] [] [TomcatWebServer.java,90,org.springframework.boot.web.embedded.tomcat.TomcatWebServer,initialize] [Tomcat initialized with port(s): 8001 (http)] ## ''
+[2020-10-31T16:22:11.629+08:00] [INFO] [main-1] [org.apache.coyote.http11.Http11NioProtocol] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing ProtocolHandler ["http-nio-8001"]] ## ''
+[2020-10-31T16:22:11.636+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardService] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting service [Tomcat]] ## ''
+[2020-10-31T16:22:11.636+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardEngine] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting Servlet engine: [Apache Tomcat/9.0.19]] ## ''
+[2020-10-31T16:22:11.699+08:00] [INFO] [main-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing Spring embedded WebApplicationContext] ## ''
+[2020-10-31T16:22:11.699+08:00] [INFO] [main-1] [org.springframework.web.context.ContextLoader] [] [] [] [ServletWebServerApplicationContext.java,296,org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext,prepareWebApplicationContext] [Root WebApplicationContext: initialization completed in 639 ms] ## ''
+[2020-10-31T16:22:11.830+08:00] [INFO] [main-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [] [] [] [ExecutorConfigurationSupport.java,171,org.springframework.scheduling.concurrent.ExecutorConfigurationSupport,initialize] [Initializing ExecutorService 'applicationTaskExecutor'] ## ''
+[2020-10-31T16:22:11.868+08:00] [WARN] [main-1] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [] [] [] [AbstractApplicationContext.java,557,org.springframework.context.support.AbstractApplicationContext,refresh] [Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'basicErrorController' method 
+public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+to { /error}: There is already 'indexCollector' bean method
+public java.lang.String com.bfxy.collector.web.IndexCollector.error() mapped.] ## ''
+[2020-10-31T16:22:11.869+08:00] [INFO] [main-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [] [] [] [ExecutorConfigurationSupport.java,208,org.springframework.scheduling.concurrent.ExecutorConfigurationSupport,shutdown] [Shutting down ExecutorService 'applicationTaskExecutor'] ## ''
+[2020-10-31T16:22:11.872+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardService] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Stopping service [Tomcat]] ## ''
+[2020-10-31T16:22:11.880+08:00] [INFO] [main-1] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [] [] [] [ConditionEvaluationReportLoggingListener.java,142,org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener,logMessage] [
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.] ## ''
+[2020-10-31T16:22:11.884+08:00] [ERROR] [main-1] [org.springframework.boot.SpringApplication] [] [] [] [SpringApplication.java,858,org.springframework.boot.SpringApplication,reportFailure] [Application run failed] ## ' org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'basicErrorController' method 
+public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+to { /error}: There is already 'indexCollector' bean method
+public java.lang.String com.bfxy.collector.web.IndexCollector.error() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:843)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.bfxy.collector.Application.main(Application.java:13)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'basicErrorController' method 
+public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+to { /error}: There is already 'indexCollector' bean method
+public java.lang.String com.bfxy.collector.web.IndexCollector.error() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:618)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:586)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:312)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:282)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:280)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:252)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:211)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:199)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	... 16 more
+'
+[2020-10-31T16:22:37.625+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [StartupInfoLogger.java,50,org.springframework.boot.StartupInfoLogger,logStarting] [Starting Application on xiaomi-Pro with PID 8044 (D:\E\zhaojh2020\kafka\collector\target\classes started by zhaojh in D:\E\zhaojh2020\kafka)] ## ''
+[2020-10-31T16:22:37.631+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [SpringApplication.java,675,org.springframework.boot.SpringApplication,logStartupProfileInfo] [No active profile set, falling back to default profiles: default] ## ''
+[2020-10-31T16:22:38.197+08:00] [INFO] [main-1] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] [] [] [TomcatWebServer.java,90,org.springframework.boot.web.embedded.tomcat.TomcatWebServer,initialize] [Tomcat initialized with port(s): 8001 (http)] ## ''
+[2020-10-31T16:22:38.212+08:00] [INFO] [main-1] [org.apache.coyote.http11.Http11NioProtocol] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing ProtocolHandler ["http-nio-8001"]] ## ''
+[2020-10-31T16:22:38.219+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardService] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting service [Tomcat]] ## ''
+[2020-10-31T16:22:38.219+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardEngine] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting Servlet engine: [Apache Tomcat/9.0.19]] ## ''
+[2020-10-31T16:22:38.287+08:00] [INFO] [main-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing Spring embedded WebApplicationContext] ## ''
+[2020-10-31T16:22:38.288+08:00] [INFO] [main-1] [org.springframework.web.context.ContextLoader] [] [] [] [ServletWebServerApplicationContext.java,296,org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext,prepareWebApplicationContext] [Root WebApplicationContext: initialization completed in 627 ms] ## ''
+[2020-10-31T16:22:38.421+08:00] [INFO] [main-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [] [] [] [ExecutorConfigurationSupport.java,171,org.springframework.scheduling.concurrent.ExecutorConfigurationSupport,initialize] [Initializing ExecutorService 'applicationTaskExecutor'] ## ''
+[2020-10-31T16:22:38.458+08:00] [WARN] [main-1] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [] [] [] [AbstractApplicationContext.java,557,org.springframework.context.support.AbstractApplicationContext,refresh] [Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'basicErrorController' method 
+public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+to { /error}: There is already 'indexCollector' bean method
+public java.lang.String com.bfxy.collector.web.IndexCollector.error() mapped.] ## ''
+[2020-10-31T16:22:38.459+08:00] [INFO] [main-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [] [] [] [ExecutorConfigurationSupport.java,208,org.springframework.scheduling.concurrent.ExecutorConfigurationSupport,shutdown] [Shutting down ExecutorService 'applicationTaskExecutor'] ## ''
+[2020-10-31T16:22:38.461+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardService] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Stopping service [Tomcat]] ## ''
+[2020-10-31T16:22:38.469+08:00] [INFO] [main-1] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [] [] [] [ConditionEvaluationReportLoggingListener.java,142,org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener,logMessage] [
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.] ## ''
+[2020-10-31T16:22:38.474+08:00] [ERROR] [main-1] [org.springframework.boot.SpringApplication] [] [] [] [SpringApplication.java,858,org.springframework.boot.SpringApplication,reportFailure] [Application run failed] ## ' org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'basicErrorController' method 
+public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+to { /error}: There is already 'indexCollector' bean method
+public java.lang.String com.bfxy.collector.web.IndexCollector.error() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:843)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.bfxy.collector.Application.main(Application.java:13)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'basicErrorController' method 
+public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+to { /error}: There is already 'indexCollector' bean method
+public java.lang.String com.bfxy.collector.web.IndexCollector.error() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:618)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:586)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:312)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:282)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:280)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:252)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:211)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:199)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	... 16 more
+'
+[2020-10-31T16:22:53.931+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [StartupInfoLogger.java,50,org.springframework.boot.StartupInfoLogger,logStarting] [Starting Application on xiaomi-Pro with PID 20744 (D:\E\zhaojh2020\kafka\collector\target\classes started by zhaojh in D:\E\zhaojh2020\kafka)] ## ''
+[2020-10-31T16:22:54.032+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [SpringApplication.java,675,org.springframework.boot.SpringApplication,logStartupProfileInfo] [No active profile set, falling back to default profiles: default] ## ''
+[2020-10-31T16:22:54.642+08:00] [INFO] [main-1] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] [] [] [TomcatWebServer.java,90,org.springframework.boot.web.embedded.tomcat.TomcatWebServer,initialize] [Tomcat initialized with port(s): 8001 (http)] ## ''
+[2020-10-31T16:22:54.658+08:00] [INFO] [main-1] [org.apache.coyote.http11.Http11NioProtocol] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing ProtocolHandler ["http-nio-8001"]] ## ''
+[2020-10-31T16:22:54.665+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardService] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting service [Tomcat]] ## ''
+[2020-10-31T16:22:54.665+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardEngine] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting Servlet engine: [Apache Tomcat/9.0.19]] ## ''
+[2020-10-31T16:22:54.727+08:00] [INFO] [main-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing Spring embedded WebApplicationContext] ## ''
+[2020-10-31T16:22:54.728+08:00] [INFO] [main-1] [org.springframework.web.context.ContextLoader] [] [] [] [ServletWebServerApplicationContext.java,296,org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext,prepareWebApplicationContext] [Root WebApplicationContext: initialization completed in 664 ms] ## ''
+[2020-10-31T16:22:54.861+08:00] [INFO] [main-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [] [] [] [ExecutorConfigurationSupport.java,171,org.springframework.scheduling.concurrent.ExecutorConfigurationSupport,initialize] [Initializing ExecutorService 'applicationTaskExecutor'] ## ''
+[2020-10-31T16:22:54.972+08:00] [INFO] [main-1] [org.apache.coyote.http11.Http11NioProtocol] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting ProtocolHandler ["http-nio-8001"]] ## ''
+[2020-10-31T16:22:54.990+08:00] [INFO] [main-1] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] [] [] [TomcatWebServer.java,204,org.springframework.boot.web.embedded.tomcat.TomcatWebServer,start] [Tomcat started on port(s): 8001 (http) with context path ''] ## ''
+[2020-10-31T16:22:54.993+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [StartupInfoLogger.java,59,org.springframework.boot.StartupInfoLogger,logStarted] [Started Application in 1.413 seconds (JVM running for 2.349)] ## ''
+[2020-10-31T16:23:06.340+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [StartupInfoLogger.java,50,org.springframework.boot.StartupInfoLogger,logStarting] [Starting Application on xiaomi-Pro with PID 13920 (D:\E\zhaojh2020\kafka\collector\target\classes started by zhaojh in D:\E\zhaojh2020\kafka)] ## ''
+[2020-10-31T16:23:06.345+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [SpringApplication.java,675,org.springframework.boot.SpringApplication,logStartupProfileInfo] [No active profile set, falling back to default profiles: default] ## ''
+[2020-10-31T16:23:07.018+08:00] [INFO] [main-1] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] [] [] [TomcatWebServer.java,90,org.springframework.boot.web.embedded.tomcat.TomcatWebServer,initialize] [Tomcat initialized with port(s): 8001 (http)] ## ''
+[2020-10-31T16:23:07.033+08:00] [INFO] [main-1] [org.apache.coyote.http11.Http11NioProtocol] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing ProtocolHandler ["http-nio-8001"]] ## ''
+[2020-10-31T16:23:07.040+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardService] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting service [Tomcat]] ## ''
+[2020-10-31T16:23:07.040+08:00] [INFO] [main-1] [org.apache.catalina.core.StandardEngine] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting Servlet engine: [Apache Tomcat/9.0.19]] ## ''
+[2020-10-31T16:23:07.101+08:00] [INFO] [main-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing Spring embedded WebApplicationContext] ## ''
+[2020-10-31T16:23:07.101+08:00] [INFO] [main-1] [org.springframework.web.context.ContextLoader] [] [] [] [ServletWebServerApplicationContext.java,296,org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext,prepareWebApplicationContext] [Root WebApplicationContext: initialization completed in 630 ms] ## ''
+[2020-10-31T16:23:07.230+08:00] [INFO] [main-1] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [] [] [] [ExecutorConfigurationSupport.java,171,org.springframework.scheduling.concurrent.ExecutorConfigurationSupport,initialize] [Initializing ExecutorService 'applicationTaskExecutor'] ## ''
+[2020-10-31T16:23:07.332+08:00] [INFO] [main-1] [org.apache.coyote.http11.Http11NioProtocol] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Starting ProtocolHandler ["http-nio-8001"]] ## ''
+[2020-10-31T16:23:07.348+08:00] [INFO] [main-1] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] [] [] [TomcatWebServer.java,204,org.springframework.boot.web.embedded.tomcat.TomcatWebServer,start] [Tomcat started on port(s): 8001 (http) with context path ''] ## ''
+[2020-10-31T16:23:07.351+08:00] [INFO] [main-1] [com.bfxy.collector.Application] [] [] [] [StartupInfoLogger.java,59,org.springframework.boot.StartupInfoLogger,logStarted] [Started Application in 1.336 seconds (JVM running for 2.272)] ## ''
+[2020-10-31T16:23:12.466+08:00] [INFO] [http-nio-8001-exec-1-28] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [] [] [] [DirectJDKLog.java,173,org.apache.juli.logging.DirectJDKLog,log] [Initializing Spring DispatcherServlet 'dispatcherServlet'] ## ''
+[2020-10-31T16:23:12.466+08:00] [INFO] [http-nio-8001-exec-1-28] [org.springframework.web.servlet.DispatcherServlet] [] [] [] [FrameworkServlet.java,524,org.springframework.web.servlet.FrameworkServlet,initServletBean] [Initializing Servlet 'dispatcherServlet'] ## ''
+[2020-10-31T16:23:12.470+08:00] [INFO] [http-nio-8001-exec-1-28] [org.springframework.web.servlet.DispatcherServlet] [] [] [] [FrameworkServlet.java,546,org.springframework.web.servlet.FrameworkServlet,initServletBean] [Completed initialization in 4 ms] ## ''
+[2020-10-31T16:23:12.483+08:00] [ERROR] [http-nio-8001-exec-1-28] [com.bfxy.collector.web.IndexCollector] [] [] [] [IndexCollector.java,43,com.bfxy.collector.web.IndexCollector,error] [算术异常] ## ''
