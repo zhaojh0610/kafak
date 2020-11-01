@@ -177,3 +177,4 @@ public java.lang.String com.bfxy.collector.web.IndexCollector.error() mapped.
 	... 16 more
 '
 [2020-10-31T16:23:12.483+08:00] [ERROR] [http-nio-8001-exec-1-28] [com.bfxy.collector.web.IndexCollector] [] [] [] [IndexCollector.java,43,com.bfxy.collector.web.IndexCollector,error] [算术异常] ## ''
+[2020-10-31T16:52:10.042+08:00] [ERROR] [http-nio-8001-exec-1-29] [com.bfxy.collector.web.IndexCollector] [] [] [] [IndexCollector.java,43,com.bfxy.collector.web.IndexCollector,error] [算术异常] ## ''
